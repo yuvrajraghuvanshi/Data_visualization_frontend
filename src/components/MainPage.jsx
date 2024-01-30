@@ -5,8 +5,8 @@ import axios from 'axios';
 
 const MainPage = ({ data, setMainData }) => {
  
-    const [limit, setLimit] = useState(5);
-    const limitedData = data.slice(0, limit);
+    // const [limit, setLimit] = useState(5);
+    // const limitedData = data.slice(0, limit);
     const [search, setSearch] = useState("");
     const handleSearchResult = async (e) => {
         e.preventDefault();
